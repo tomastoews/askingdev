@@ -9,7 +9,7 @@ I know, there are major websites available, such as Stackoverflow or dev.io.
 I don't expect askingdev to become a well-known website or to gain thousands of users.
 It's totally fine if askingdev stays a small website forever.
 
-The reason I started creating askingdev is that it has been a wish for a long time to create a project like this and I want to contribute to the open source community. In January 2019 I started using GNU/Linux as my desktop operating system, and I love it now. Today I use it only. I appreciate the work that the open source community has done in the past decades. That's also a reason why I chose to make askingdev an open source project. I don't know everything about open source, but I plan on reading more about it. 
+The reason I started creating askingdev is that it has been a wish for a long time to create a project like this and I want to contribute to the open source community. In January 2019 I began using GNU/Linux as my desktop operating system, and I love it now. Today I use it only. I appreciate the work that the open source community has done in the past decades. That's also a reason why I chose to make askingdev an open source project. I don't know everything about open source, but I plan on reading more about it. 
 I am a person who prefers to do something for the passion and to help others instead of the money.
 
 ## The features:
