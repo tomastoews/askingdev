@@ -82,6 +82,6 @@ I chose this tech stack because that is what I am most familiar with.
 - Website: https://www.docker.com/
 
 ## Deployment (Testing, Staging, and Production)
-As far as deployment goes, I would like to use Docker for containerization and lightweight Kubernetes (k3s) for container orchestration.
+As far as deployment goes, I would like to use Docker for containerization and K3s (a lightweight version of Kubernetes) for container orchestration.
 - K3s: https://k3s.io/
 - Documentation: https://rancher.com/docs/k3s/latest/en/
