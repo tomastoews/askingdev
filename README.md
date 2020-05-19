@@ -31,33 +31,38 @@ There aren't mind-blowing features yet, but for the beginning that's acceptable.
 
 ## These are the used technologies so far:
 ### Backend:
-- Node.js
-Node.js is a runtime environment for executing JavaScript files and building JavaScript applications.
-Website: https://nodejs.org/en/docs/
 
-- Express.js
-Express.js is a lightweight framework for Node.js.
-Website: https://expressjs.com/
+#### Node.js
+- Node.js is a runtime environment for executing JavaScript files and building JavaScript applications.
+- Website: https://nodejs.org/en/docs/
 
-- Mongoose
-Mongoose is a MongoDB object modeling, validating, and querying library for Node.js.
-Website: https://mongoosejs.com/
+#### Express.js
+- Express.js is a lightweight framework for Node.js.
+- Website: https://expressjs.com/
+
+#### Mongoose
+- Mongoose is a MongoDB object modeling, validating, and querying library for Node.js.
+- Website: https://mongoosejs.com/
 
 ### Database:
-- MongoDB
-MongoDB is a document-oriented database that stores its data in the JSON-format.
-Website: https://www.mongodb.com/
+
+#### MongoDB
+- MongoDB is a document-oriented database that stores its data in the JSON-format.
+- Website: https://www.mongodb.com/
 
 ### Frontend:
-- Nuxt.js (Vue.js)
-Vue.js is a JavaScript framework for building Single Page Applications (SPAs).
-Website: https://vuejs.org/
-Nuxt.js is a framework that uses Vue.js to render web pages on the server side.
-Website: https://nuxtjs.org/
 
-- Vuetify as the UI-Framework
-Vuetify is a UI-Framework for Vue.js that implements the Material Design very well.
-https://vuetifyjs.com/
+#### Vue.js
+- Vue.js is a JavaScript framework for building Single Page Applications (SPAs).
+- Website: https://vuejs.org/
+
+#### Nuxt.js
+- Nuxt.js is a framework to render Vue.js SPAs on the server side. (Server side rendering -> SSR)
+- Website: https://nuxtjs.org/
+
+#### Vuetify
+- Vuetify is a UI-Framework for Vue.js that implements the Material Design very well.
+- Website: https://vuetifyjs.com/
 
 I chose this tech stack because that is what I am most familiar with.
 
