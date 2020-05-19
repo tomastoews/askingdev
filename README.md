@@ -85,3 +85,18 @@ I chose this tech stack because that is what I am most familiar with.
 As far as deployment goes, I would like to use Docker for containerization and K3s (a lightweight version of Kubernetes) for container orchestration.
 - K3s: https://k3s.io/
 - Documentation: https://rancher.com/docs/k3s/latest/en/
+
+## Gettings started
+If you would like to contribute to the askingdev project, thank you ver much!
+
+Personally, I use GNU/Linux. And therefore all scripts in this project are Bash scripts.
+If you use Windows, you can install Git Bash to be able to run Bash scripts:
+- https://git-scm.com/downloads
+
+First of all, the one and only software you need to install is Docker.
+- Download: https://hub.docker.com/editions/community/docker-ce-desktop-windows/
+- A tutorial: https://docs.docker.com/docker-for-windows/install/
+
+You don't know what Docker is? No problem! Here are good tutorials to get you started:
+- https://docker-curriculum.com/
+- https://docs.docker.com/get-started/
