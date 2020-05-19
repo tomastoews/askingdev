@@ -86,7 +86,7 @@ As far as deployment goes, I would like to use Docker for containerization and K
 - K3s: https://k3s.io/
 - Documentation: https://rancher.com/docs/k3s/latest/en/
 
-## Gettings started
+## Getting started
 If you would like to contribute to the askingdev project, thank you very much!
 
 I use GNU/Linux. And therefore all scripts in this project are Bash scripts.
