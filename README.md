@@ -76,7 +76,7 @@ I chose this tech stack because that is what I am most familiar with.
 ### Tools:
 
 ### Docker
-- Docker is a containerization software to run applications isolated in its environment with its dependencies.
+- Docker is a containerization software to run an application along with its dependencies isolated in its environment.
 - I use it here to run all parts of askingdev's ecosystem as a local network and to make the local development easy.
 - You may have Node.js 8 installed, but askingdev requires 12.16. To avoid such conflicts, I decided to use this approach.
 - Website: https://www.docker.com/
