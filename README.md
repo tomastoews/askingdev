@@ -29,6 +29,13 @@ There aren't mind-blowing features yet, but for the beginning that's acceptable.
   - A link to your portfolio/GitHub-page
 - Add a profile picture to your user profile
 
+## The ecosystem/architecture
+Askingdev could just consist of a frontend, a database, and one giant backend application.
+For a very small application, this design is fine.
+But as my work on the backend progressed, I realized that it might be a better idea to split up the backend application into several microservices to make it modular, more stable, and better maintainable.
+If a critical error occurred in a big backend application, the entire application would just crash.
+That's something I don't want to happen. Also, for example, if one part of a running application needs to be updated, the entire application would need to be restarted. When using microservices, then only one updated microservice needs to be restarted. Therefore I would like the backend to consist of microservices
+
 ## These are the used technologies so far:
 ### Backend:
 
@@ -74,7 +81,7 @@ I chose this tech stack because that is what I am most familiar with.
 - You may have Node.js 8 installed, but askingdev requires 12.16. To avoid such conflicts, I decided to use this approach.
 - Website: https://www.docker.com/
 
-## Deployments (Testing, Staging, and Production)
+## Deployment (Testing, Staging, and Production)
 As far as deployment goes, I would like to use Docker for containerization and lightweight Kubernetes (k3s) for container orchestration.
 - K3s: https://k3s.io/
 - Documentation: https://rancher.com/docs/k3s/latest/en/
