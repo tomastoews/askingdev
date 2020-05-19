@@ -29,7 +29,7 @@ There aren't mind-blowing features yet, but for the beginning that's acceptable.
   - A link to your portfolio/GitHub-page
 - Add a profile picture to your user profile
 
-## The ecosystem/architecture
+## The ecosystem/architecture/infrastructure
 Askingdev could just consist of a frontend, a database, and one giant backend application.
 For a very small application, this design is fine.
 But as my work on the backend progressed, I realized that it might be a better idea to split up the backend application into several microservices to make it modular, more stable, and better maintainable.
