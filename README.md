@@ -16,8 +16,7 @@ I am a person who prefers to do something for the passion and to help others ins
 There aren't mind-blowing features yet, but for the beginning that's acceptable.
 
 - Create questions
-- Create answers
-- Quote other's answers
+- Create answers (optionally quote other's answers)
 - Categorize questions into rooms
 - Add a question to your bookmarks
 - Mark an answer as helpful
