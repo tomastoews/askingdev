@@ -57,7 +57,7 @@ There aren't mind-blowing features yet, but for the beginning that's acceptable.
 - Website: https://vuejs.org/
 
 #### Nuxt.js
-- Nuxt.js is a framework to render Vue.js SPAs on the server side. (Server side rendering -> SSR)
+- Nuxt.js is a framework to render Vue.js SPAs on the server side. (Server-side rendering -> SSR)
 - Website: https://nuxtjs.org/
 
 #### Vuetify
@@ -66,3 +66,15 @@ There aren't mind-blowing features yet, but for the beginning that's acceptable.
 
 I chose this tech stack because that is what I am most familiar with.
 
+### Tools:
+
+### Docker
+- Docker is a containerization software to run applications isolated in its environment with its dependencies.
+- I use it here to run all parts of askingdev's ecosystem as a local network and to make the local development easy.
+- You may have Node.js 8 installed, but askingdev requires 12.16. To avoid such conflicts, I decided to use this approach.
+- Website: https://www.docker.com/
+
+## Deployments (Testing, Staging, and Production)
+As far as deployment goes, I would like to use Docker for containerization and lightweight Kubernetes (k3s) for container orchestration.
+- K3s: https://k3s.io/
+- Documentation: https://rancher.com/docs/k3s/latest/en/
