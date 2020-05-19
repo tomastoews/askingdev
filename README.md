@@ -87,16 +87,18 @@ As far as deployment goes, I would like to use Docker for containerization and K
 - Documentation: https://rancher.com/docs/k3s/latest/en/
 
 ## Gettings started
-If you would like to contribute to the askingdev project, thank you ver much!
+If you would like to contribute to the askingdev project, thank you very much!
 
-Personally, I use GNU/Linux. And therefore all scripts in this project are Bash scripts.
+I use GNU/Linux. And therefore all scripts in this project are Bash scripts.
 If you use Windows, you can install Git Bash to be able to run Bash scripts:
 - https://git-scm.com/downloads
 
-First of all, the one and only software you need to install is Docker.
+First of all, the only software you need to install is Docker.
 - Download: https://hub.docker.com/editions/community/docker-ce-desktop-windows/
 - A tutorial: https://docs.docker.com/docker-for-windows/install/
 
 You don't know what Docker is? No problem! Here are good tutorials to get you started:
 - https://docker-curriculum.com/
 - https://docs.docker.com/get-started/
+
+[ This README file is not finished yet. ]
