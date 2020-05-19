@@ -93,7 +93,7 @@ I use GNU/Linux. And therefore all scripts in this project are Bash scripts.
 If you use Windows, you can install Git Bash to be able to run Bash scripts:
 - https://git-scm.com/downloads
 
-First of all, the only software you need to install is Docker.
+The only software you need to install is Docker.
 - Download: https://hub.docker.com/editions/community/docker-ce-desktop-windows/
 - A tutorial: https://docs.docker.com/docker-for-windows/install/
 
