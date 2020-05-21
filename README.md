@@ -76,12 +76,12 @@ I chose this tech stack because that is what I am most familiar with.
 
 ### Docker
 - Docker is a containerization software to run an application along with its dependencies isolated in its environment.
-- I use it here to run all parts of askingdev's ecosystem as a local network and to make the local development easy.
+- I use it here to run all parts of askingdev's ecosystem inside Docker containers to make the local development easy.
 - You may have Node.js 8 installed, but askingdev requires 12.16. To avoid such conflicts, I decided to use this approach.
 - Website: https://www.docker.com/
 
-## Deployment (Testing, Staging, and Production)
-As far as deployment goes, I would like to use Docker for containerization and K3s (a lightweight version of Kubernetes) for container orchestration.
+## Deployment (Development, Testing, Staging, and Production)
+As far as deployment goes, I plan to use Docker for containerization and K3s (a lightweight version of Kubernetes) for container orchestration.
 - K3s: https://k3s.io/
 - Documentation: https://rancher.com/docs/k3s/latest/en/
 
@@ -99,10 +99,14 @@ The only software you need to install is Docker.
 
 ### Run askingdev locally
 1. Make sure you are inside the root direcory of the project. The run:
-`docker-compose up --build`
+```bash 
+docker-compose up --build
+```
 This will download all required docker images from DockerHub and then builds all containers on your system.
 2. After that you can run tha command without the `--buid` flag:
-`docker-compose up`
+```bash 
+docker-compose up
+```
 
 ### You don't know what Docker is? No problem! Here are good tutorials to get you started:
 - https://docker-curriculum.com/
