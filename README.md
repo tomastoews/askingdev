@@ -109,7 +109,7 @@ docker-compose up --build
 ```
 This will download all required docker images from DockerHub and then builds all containers on your system.
 
-After that you can run that command again, but without the `--buid` flag. This will start all containers.
+After that you can run that command again, but without the `--buid` flag. This will start all containers only.
 ```bash 
 docker-compose up
 ```
