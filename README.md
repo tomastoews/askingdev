@@ -119,4 +119,5 @@ The configurations for all containers can be found in the file `docker-compose.y
 - https://docker-curriculum.com/
 - https://docs.docker.com/get-started/
 
-[ This README file is not finished yet. ]
+> This README file is not finished yet.
+> The source code and all project data will be uploaded soon.
