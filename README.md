@@ -103,12 +103,13 @@ docker -v
 ```
 
 ### Run askingdev locally
-1. Make sure you are inside the root directory of the project. Then run:
+Make sure you are inside the root directory of the project. Then run:
 ```bash 
 docker-compose up --build
 ```
 This will download all required docker images from DockerHub and then builds all containers on your system.
-2. After that you can run that command again, but without the `--buid` flag. This will start all containers.
+
+After that you can run that command again, but without the `--buid` flag. This will start all containers.
 ```bash 
 docker-compose up
 ```
