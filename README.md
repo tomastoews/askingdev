@@ -77,7 +77,7 @@ I chose this tech stack because that is what I am most familiar with.
 ### Docker
 - Docker is a containerization software to run an application along with its dependencies isolated in its environment.
 - I use it here to run all parts of askingdev's ecosystem inside Docker containers to make the local development easy.
-- You may have Node.js 8 installed, but askingdev requires 12.16. To avoid such conflicts, I decided to use this approach.
+- You may have Node.js 8 installed on your system, but askingdev requires 12.16. To avoid such conflicts, I decided to use this approach. It also allows you to start askingdev and all its parts using only one command, instead of having to open up 10 terminals or so.
 - Website: https://www.docker.com/
 
 ## Deployment (Development, Testing, Staging, and Production)
@@ -88,6 +88,7 @@ As far as deployment goes, I plan to use Docker for containerization and K3s (a 
 ## Contribution
 If you would like to contribute to the askingdev project, thank you very much!
 
+### Preperation
 I use GNU/Linux. And therefore all scripts in this project are Bash scripts.
 If you use Windows, you can install Git Bash to be able to run Bash scripts:
 - https://git-scm.com/downloads
@@ -96,17 +97,22 @@ The only software you need to install is Docker.
 - Download: https://hub.docker.com/editions/community/docker-ce-desktop-windows/
 - A tutorial: https://docs.docker.com/docker-for-windows/install/
 - Docker is used to run all parts of askingdev inside isolated conainers that communicate with each other.
+- To verify that Docker was installed properly, run this:
+```bash
+docker -v
+```
 
 ### Run askingdev locally
-1. Make sure you are inside the root direcory of the project. The run:
+1. Make sure you are inside the root directory of the project. The run:
 ```bash 
 docker-compose up --build
 ```
 This will download all required docker images from DockerHub and then builds all containers on your system.
-2. After that you can run tha command without the `--buid` flag:
+2. After that you can run that command again, but without the `--buid` flag. This will start all containers.
 ```bash 
 docker-compose up
 ```
+The configurations for all containers can be found in the file `docker-compose.yml`.
 
 ### You don't know what Docker is? No problem! Here are good tutorials to get you started:
 - https://docker-curriculum.com/
