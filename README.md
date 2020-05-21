@@ -3,13 +3,12 @@
 Hello,
 
 This is a little project I started many months ago.
-I want it to become a minimal, free, and open source Q&A platform.
+I want it to become a minimal, simple, free, and open source Q&A platform.
 Askingdev is primarily targeted towards web developers, but of course, anyone can use it.
-I know, there are major websites available, such as Stackoverflow or dev.io.
 I don't expect askingdev to become a well-known website or to gain thousands of users.
 It's totally fine if askingdev stays a small website forever.
 
-The reason I started creating askingdev is that it has been a wish for a long time to create a project like this and I want to contribute to the open source community. In January 2019 I began using GNU/Linux as my desktop operating system, and I love it now. Today I use it only. I appreciate the work that the open source community has done in the past decades. That's also a reason why I chose to make askingdev an open source project. I don't know everything about open source, but I plan on reading more about it. 
+The reason why I started creating askingdev, is that it has been a wish for a long time to create a project like this and I want to contribute to the open source community. In January 2019 I began using GNU/Linux as my desktop operating system, and I love it now. Today I use it only. I appreciate the work that the open source community has done in the past decades. That's also a reason why I decided to publish askingdev as an open source project. I don't know everything about open source, but I plan on reading more about it. 
 I am a person who prefers to do something for the passion and to help others instead of the money.
 
 ## The features:
@@ -32,9 +31,9 @@ There aren't mind-blowing features yet, but for the beginning that's acceptable.
 ## The ecosystem/architecture/infrastructure
 Askingdev could just consist of a frontend, a database, and one giant backend application.
 For a very small application, this design is fine.
-But as my work on the backend progressed, I realized that it might be a better idea to split up the backend application into several microservices to make it modular, more stable, and better maintainable.
+But as my work on the backend progressed, I realized that it might be a better idea to split up the backend application into several microservices to make it modular and better maintainable.
 If a critical error occurred in a big backend application, the entire application would just crash.
-That's something I don't want to happen. Also, for example, if one part of a running application needs to be updated, the entire application would need to be restarted. When using microservices, then only one updated microservice needs to be restarted. Therefore I would like the backend to consist of microservices
+That's something I don't want to happen. Also, for example, if one part of a running application needs to be updated, the entire application would need to be restarted. When using microservices, then only one updated microservice needs to be restarted. That also results in improved stability. Therefore I would like the backend to consist of microservices
 
 ## These are the used technologies so far:
 ### Backend:
@@ -86,7 +85,7 @@ As far as deployment goes, I would like to use Docker for containerization and K
 - K3s: https://k3s.io/
 - Documentation: https://rancher.com/docs/k3s/latest/en/
 
-## Getting started
+## Contribution
 If you would like to contribute to the askingdev project, thank you very much!
 
 I use GNU/Linux. And therefore all scripts in this project are Bash scripts.
@@ -96,8 +95,16 @@ If you use Windows, you can install Git Bash to be able to run Bash scripts:
 The only software you need to install is Docker.
 - Download: https://hub.docker.com/editions/community/docker-ce-desktop-windows/
 - A tutorial: https://docs.docker.com/docker-for-windows/install/
+- Docker is used to run all parts of askingdev inside isolated conainers that communicate with each other.
 
-You don't know what Docker is? No problem! Here are good tutorials to get you started:
+### Run askingdev locally
+1. Make sure you are inside the root direcory of the project. The run:
+`docker-compose up --build`
+This will download all required docker images from DockerHub and then builds all containers on your system.
+2. After that you can run tha command without the `--buid` flag:
+`docker-compose up`
+
+### You don't know what Docker is? No problem! Here are good tutorials to get you started:
 - https://docker-curriculum.com/
 - https://docs.docker.com/get-started/
 
