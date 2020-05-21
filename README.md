@@ -103,7 +103,7 @@ docker -v
 ```
 
 ### Run askingdev locally
-1. Make sure you are inside the root directory of the project. The run:
+1. Make sure you are inside the root directory of the project. Then run:
 ```bash 
 docker-compose up --build
 ```
